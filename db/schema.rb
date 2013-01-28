@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130122002938) do
+ActiveRecord::Schema.define(:version => 20130125011529) do
 
   create_table "diary_entries", :force => true do |t|
     t.string   "name"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20130122002938) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "user_name"
+    t.string   "mood"
   end
 
 end
